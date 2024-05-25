@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Employes Management System</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/5.3.2/css/bootstrap.min.css">
+    <style>
+        /* Custom CSS to override Bootstrap styles */
+        .navbar-dark .navbar-nav .nav-link {
+            color: white; /* Change text color to white */
+        }
+        .navbar-dark .navbar-brand {
+            color: white; /* Change brand text color to white */
+        }
+        /* Hover effect for nav links */
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #0d6efd; /* Change text color to blue on hover */
+        }
+        /* Custom styling for logout button */
+        .logout-btn {
+            background-color: #0d6efd; /* Blue background */
+            color: white; /* White text */
+            border: none; /* Remove border */
+            padding: 0.375rem 0.75rem; /* Padding */
+            transition: background-color 0.3s, color 0.3s; /* Transition effect */
+        }
+        .logout-btn:hover,
+        .logout-btn:focus {
+            background-color: white; /* White background on hover/focus */
+            color: #0d6efd; /* Blue text on hover/focus */
+        }
+
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-black"> <!-- Change bg-light to bg-black for black navbar -->
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">Employes Management System</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index">Employes List</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/create">Add New Employe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/departements">Department List</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/department/add">Add New Department</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/projets">Projet List</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/projet/add">Add New Projet</a>
+                </li>
+            </ul>
+            <div class="d-flex">
+                <a th:href="@{/logout}" class="btn logout-btn me-2">Logout</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<section layout:fragment="content">
+</section>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b291b06-644a-4f6c-b60e-b90eee2dbba4" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2eNA78BzotnUw1sekwVZGJj262k" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.GestionEmployes [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.GestionEmployes [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.GestionEmployesApplication.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hatim Harrati/Desktop/4 ème année Ingénierie Informatique et Réseaux Option MIAGE/J2EE/GestionEmployes/src/main/resources/templates&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ma.emsi.GestionEmployes.services" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hatim Harrati\Desktop\4 ème année Ingénierie Informatique et Réseaux Option MIAGE\J2EE\GestionEmployes\src\main\resources\templates" />
+      <recent name="C:\Users\Hatim Harrati\Desktop\4 ème année Ingénierie Informatique et Réseaux Option MIAGE\J2EE\GestionEmployes\src\main\java\ma\emsi\GestionEmployes\controllers" />
+      <recent name="C:\Users\Hatim Harrati\Desktop\4 ème année Ingénierie Informatique et Réseaux Option MIAGE\J2EE\GestionEmployes\src\main\java\ma\emsi\GestionEmployes" />
+      <recent name="C:\Users\Hatim Harrati\Desktop\GestionEmployes\src\main\resources\templates" />
+      <recent name="C:\Users\Hatim Harrati\Desktop\GestionEmployes\src\main\java\ma\emsi\GestionEmployes\web" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ma.emsi.GestionEmployes.services" />
+      <recent name="ma.emsi.GestionEmployes.web" />
+      <recent name="ma.emsi.GestionEmployes.repositories" />
+      <recent name="ma.emsi.GestionEmployes.entities" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GestionEmployesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="GestionEmployes" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.emsi.GestionEmployes.GestionEmployesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b291b06-644a-4f6c-b60e-b90eee2dbba4" name="Changes" comment="" />
+      <created>1711734491922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711734491922</updated>
+      <workItem from="1711734493234" duration="615000" />
+      <workItem from="1711735113445" duration="2232000" />
+      <workItem from="1711739606925" duration="2084000" />
+      <workItem from="1711751372186" duration="8687000" />
+      <workItem from="1711806523837" duration="246000" />
+      <workItem from="1711807004833" duration="11000" />
+      <workItem from="1711807028030" duration="10000" />
+      <workItem from="1711807046712" duration="5000" />
+      <workItem from="1711807154655" duration="11389000" />
+      <workItem from="1711922579104" duration="325000" />
+      <workItem from="1711930388852" duration="2392000" />
+      <workItem from="1711963876600" duration="359000" />
+      <workItem from="1711968170073" duration="87000" />
+      <workItem from="1712049895252" duration="1259000" />
+      <workItem from="1712052385394" duration="1860000" />
+      <workItem from="1712054552977" duration="3377000" />
+      <workItem from="1712064212885" duration="4254000" />
+      <workItem from="1712096751797" duration="4395000" />
+      <workItem from="1712136530223" duration="185000" />
+      <workItem from="1712222573822" duration="259000" />
+      <workItem from="1712241099278" duration="243000" />
+      <workItem from="1712245104383" duration="273000" />
+      <workItem from="1712255972956" duration="504000" />
+      <workItem from="1712268243238" duration="2040000" />
+      <workItem from="1712314986977" duration="178000" />
+      <workItem from="1712324637445" duration="356000" />
+      <workItem from="1712327138513" duration="249000" />
+      <workItem from="1712418866705" duration="65000" />
+      <workItem from="1713445706490" duration="3000" />
+      <workItem from="1713960278976" duration="157000" />
+      <workItem from="1714142122113" duration="5361000" />
+      <workItem from="1714310283921" duration="3319000" />
+      <workItem from="1714512739932" duration="2345000" />
+      <workItem from="1714557454185" duration="1189000" />
+      <workItem from="1714649502062" duration="1333000" />
+      <workItem from="1714652387552" duration="169000" />
+      <workItem from="1715123324026" duration="59000" />
+      <workItem from="1715123412445" duration="25000" />
+      <workItem from="1715348758126" duration="2321000" />
+      <workItem from="1715374134818" duration="7241000" />
+      <workItem from="1715424295458" duration="337000" />
+      <workItem from="1715939176942" duration="2146000" />
+      <workItem from="1716058090036" duration="4881000" />
+      <workItem from="1716191308869" duration="268000" />
+      <workItem from="1716195629993" duration="300000" />
+      <workItem from="1716231848650" duration="2534000" />
+      <workItem from="1716298240621" duration="1787000" />
+      <workItem from="1716324511710" duration="698000" />
+      <workItem from="1716365218333" duration="1613000" />
+      <workItem from="1716373671247" duration="3095000" />
+      <workItem from="1716379629739" duration="131000" />
+      <workItem from="1716622914039" duration="309000" />
+      <workItem from="1716623332854" duration="4072000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

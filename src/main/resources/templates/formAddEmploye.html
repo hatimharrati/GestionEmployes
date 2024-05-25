@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="menu">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Employe</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/5.3.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+        .card {
+            margin-top: 20px;
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-header {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .form-label {
+            font-weight: bold;
+        }
+
+        .form-control {
+            margin-bottom: 15px;
+        }
+
+        .btn-primary {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div layout:fragment="content">
+    <div class="p-3">
+        <div class="card">
+            <div class="card-header">Add New Employe</div>
+            <form method="post" th:action="@{save}">
+                <div class="mb-3">
+                    <label for="nom" class="form-label">Full Name:</label>
+                    <input type="text" class="form-control" id="nom" placeholder="Full Name" name="fullName"
+                           th:value="${employe.fullName}">
+                </div>
+                <div class="mb-3">
+                    <label for="register" class="form-label">Registration Number:</label>
+                    <input type="text" class="form-control" id="register" placeholder="Registration Number"
+                           name="registrationNumber" th:value="${employe.registrationNumber}">
+                </div>
+                <div class="mb-3">
+                    <label for="birthday" class="form-label">Birthday:</label>
+                    <input type="date" class="form-control" id="birthday" placeholder="Birthday" name="birthday"
+                           th:value="${employe.birthday}">
+                </div>
+                <div class="mb-3">
+                <label for="departement" class="form-label">Departement:</label>
+                <div class="input-group">
+                    <select id="departement" name="departement.id" class="form-select" required>
+                        <option value="">Choose departement</option>
+                        <option th:each="dept : ${departements}" th:value="${dept.id}" th:text="${dept.nom}"></option>
+                    </select>
+                </div>
+                </div>
+                <div class="mb-3">
+                <label for="projet" class="form-label">Projet:</label>
+                <div class="input-group">
+                    <select id="projet" name="projet.id" class="form-select" required>
+                        <option value="">Choose projet</option>
+                        <option th:each="p : ${projets}" th:value="${p.id}" th:text="${p.description}"></option>
+                    </select>
+                </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Create</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+

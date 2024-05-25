@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+        }
+
+        .signup-form {
+            width: 340px;
+            font-size: 15px;
+            background: #000;
+            color: #fff;
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+        }
+
+        .signup-form h2 {
+            margin: 0 0 15px;
+        }
+
+        .form-control, .btn {
+            min-height: 38px;
+            border-radius: 2px;
+        }
+
+        .btn {
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="signup-form">
+    <h2 class="text-center">Sign Up</h2>
+    <p th:if="${param.error}" class="error">Registration failed</p>
+    <form th:action="@{/register}" method="post" th:object="${user}">
+        <div class="form-group">
+            <input type="text" class="form-control" id="first_name" th:field="*{firstName}" placeholder="First Name" required="required">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="last_name" th:field="*{lastName}" placeholder="Last Name" required="required">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="email" th:field="*{email}" placeholder="E-mail" required="required">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" id="password" th:field="*{password}" placeholder="Password" required="required">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block">Sign up</button>
+        </div>
+    </form>
+    <hr />
+    <p class="text-center">
+        Already have an account ? <a href="/login">Login Here</a>
+    </p>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var form = document.getElementById('signupForm');
+        var firstNameInput = document.getElementById('first_name');
+        var lastNameInput = document.getElementById('last_name');
+        var emailInput = document.getElementById('email');
+        var passwordInput = document.getElementById('password');
+
+        firstNameInput.addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                form.submit();
+            }
+        });
+
+        lastNameInput.addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                form.submit();
+            }
+        });
+
+        emailInput.addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                form.submit();
+            }
+        });
+
+        passwordInput.addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                form.submit();
+            }
+        });
+    });
+</script>
+</body>
+</html>
